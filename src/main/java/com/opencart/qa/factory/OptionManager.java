@@ -22,6 +22,7 @@ public class OptionManager
 		prop = new Properties();
 		if (Boolean.parseBoolean((prop.getProperty("headless")))) co.addArguments("--headless");
 		if (Boolean.parseBoolean((prop.getProperty("incognito")))) co.addArguments("--incognito");
+		System.out.println("asds");
 		return co;
 	}
 	
