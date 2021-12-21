@@ -4,7 +4,7 @@ public class loginTest {
 public void loginsTest() {
 	System.out.println("asd");
 System.out.println("suresh");
-	System.out.println("hemant");
+	System.out.println("hemant");System.out.println("alok");
 
 }
 }
